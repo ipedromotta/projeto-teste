@@ -52,6 +52,10 @@ h2{
     transition: 1s;
 }
 
+.menu a:hover{
+    color: #7A75B5;
+}
+
 a{
     text-decoration: none;
     color: white;
@@ -117,4 +121,8 @@ form{
     margin-top: 1em;
     text-align: center;
     width: 100%;
+}
+
+.campo label{
+    display: inline-block;
 }
