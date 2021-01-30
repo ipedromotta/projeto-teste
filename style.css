@@ -12,6 +12,7 @@ h1{
 h2{
     font-size: 22px;
     color: lightblue;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.301);
 }
 
 .corpo{
@@ -19,8 +20,10 @@ h2{
     background-color: #3B3B7F;
     color: white;
     padding: 15px;
-    margin: -20px auto 20px auto;
+    margin: -7px auto 20px auto;
+    border-radius: 30px;
     display: block;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.295);
 }
 
 .cabecalho{
@@ -37,28 +40,25 @@ h2{
 .menu ul{
     list-style: none;
     margin-left: 455px;
-    margin-top: 0px;
+    margin-top: 8px;
 }
 
 .menu li{
     display: inline-block;
-    background-color: #7A75B5;
-    padding: 10px;
-    margin: 2px;
-}
-
-.menu li:hover{
-    background-color: rgb(20, 7, 77);
-    transition: 1s;
 }
 
 .menu a:hover{
-    color: #7A75B5;
+    background-color: rgb(20, 7, 77);
+    transition: .75s;
 }
 
-a{
+.menu a{
     text-decoration: none;
     color: white;
+    background-color: #7A75B5;
+    padding: 10px;
+    margin: 2px;
+    border-radius: 10px;
 }
 
 .parceria{
